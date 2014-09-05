@@ -19,6 +19,6 @@ HTML;
        mail($to, $subject, $body, $headers);
 
        // redirect afterwords, if needed
-       header('Location: index.html');
+       header('Location: index.html#');
 
 ?>       
