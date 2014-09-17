@@ -1,0 +1,9 @@
+admin-auv
+pass::auv-iitb1234*
+
+db
+----
+name- auv_blog
+user-root
+pass-<blank/no pass>
+
