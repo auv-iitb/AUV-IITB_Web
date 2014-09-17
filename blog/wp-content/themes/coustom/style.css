@@ -1,0 +1,14 @@
+/*
+Theme Name: My Theme
+Theme URI: http://yourdomain.com
+Author: Your Name
+Author URI: http://yourdomain.com
+Template: twentytwelve
+Version: 1.0.0
+*/
+
+@import url('../twentytwelve/style.css');
+@import url("../../../css/style.css");
+@import url("../../../css/custom.css");
+@import url("../../../css/navbar.css");
+@import url("../../../css/responsive.css");
