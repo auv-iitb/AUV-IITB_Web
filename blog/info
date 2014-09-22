@@ -1,0 +1,11 @@
+admin-auv
+pass::auv-iitb1234*
+
+db
+----
+name- auv_blog
+user-root
+pass-<blank/no pass>
+
+edit the files in wp_contents/themes/coustom/site_files/
+to add sites footer , header etc nd style.css for styles
