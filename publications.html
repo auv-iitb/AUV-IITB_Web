@@ -1,0 +1,174 @@
+<?php 
+/* Short and sweet */
+define('WP_USE_THEMES', false);
+require('./blog/wp-blog-header.php');
+?>
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>AUV-IITB</title>
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	
+	<!-- Fonts --> 
+	<link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="screen" title="stylesheet">
+	<link href="./fonts/fontello/css/fontello.css" rel="stylesheet" type="text/css" media="screen" title="stylesheet" />
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
+	
+
+	<!-- CSS -->
+	<link href="./css/style.css" rel="stylesheet" type="text/css" media="screen" title="stylesheet" />
+	<link href="./css/responsive.css" rel="stylesheet" type="text/css" media="screen" title="stylesheet" />
+	<link href="./css/custom.css" rel="stylesheet" type="text/css" media="screen" title="stylesheet" />
+	<link href="./css/navbar.css" rel="stylesheet" type="text/css" media="screen" title="stylesheet" />
+	
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="./js/modernizr.js"></script>
+	<link href="./css/ie.css" rel="stylesheet" type="text/css" media="screen" title="stylesheet" />
+	<![endif]-->
+
+</head>
+<body class="home">
+	
+	<!-- SITE HEADER -->
+	<header id="site-header">
+		<div class="container">
+			
+			<a href="index.html">
+				<img src="./images/AUV-logo-new.png" style="margin-top:15px" alt="AUV-IITB" height="70px" width="280px" />				
+			</a>
+			
+			<a href="#" class="toggle-site-nav show-on-mobile show-on-tablet"><i class="icon-reorder"></i></a>
+			
+			<!-- <nav id="site-nav"> 
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#about">AUVs</a>
+						<ul>
+							<li><a href="matsya1.html">Matsya 1.0</a>
+								<ul>
+									<li><a href="matsya1.html#elec">Electrical</a></li>
+									<li><a href="matsya1.html#mech">Mechanical</a></li>
+									<li><a href="matsya1.html#soft">Software</a></li>
+								</ul>
+							</li>
+							<li><a href="matsya2.html">Matsya 2.0</a>
+								<ul>
+									<li><a href="matsya2.html#elec">Electrical</a></li>
+									<li><a href="matsya2.html#mech">Mechanical</a></li>
+									<li><a href="matsya2.html#soft">Software</a></li>
+								</ul>
+							</li>
+							<li><a href="matsya3.html">Matsya 3.0</a>
+								<ul>
+									<li><a href="matsya3.html#elec">Electrical</a></li>
+									<li><a href="matsya3.html#mech">Mechanical</a></li>
+									<li><a href="matsya3.html#soft">Software</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#team">Team</a></li>
+					<li><a href="#gallery">Gallery</a></li>
+					<li><a href="#blog">Blog</a></li>
+					<li><a href="#sponsors">Sponsors</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			-->
+
+
+			<!-- end site nav -->
+			
+		</div>
+	</header><!-- end site header -->
+
+<div id='cssmenu'>
+<ul>
+   <li ><a href='./index.html#'><span>Home</span></a></li>
+   <li><a href='./index.html#about'><span>AUVs</span></a>
+      <ul>
+         <li class='has-sub'><a href='#'><span>Matsya 1.0</span></a>
+            <ul>
+               <li><a href='./matsya1_elec.html'><span>Electrical</span></a></li>
+               <li><a href='./matsya1_mech.html'><span>Mechanical</span></a></li>
+               <li class='last'><a href='./matsya1_soft.html'><span>Software</span></a></li>
+            </ul>
+         </li>
+         <li class='has-sub'><a href='#'><span>Matsya 2.0</span></a>
+            <ul>
+               <li><a href='./matsya2_elec.html'><span>Electrical</span></a></li>
+               <li><a href='./matsya2_mech.html'><span>Mechanical</span></a></li>
+               <li class='last'><a href='./matsya2_soft.html'><span>Software</span></a></li>
+            </ul>
+         </li>
+         <li class='has-sub'><a href='#'><span>Matsya 3.0</span></a>
+            <ul>
+               <li><a href='./matsya3_elec.html'><span>Electrical</span></a></li>
+               <li><a href='./matsya3_mech.html'><span>Mechanical</span></a></li>
+               <li class='last'><a href='./matsya3_soft.html'><span>Software</span></a></li>
+            </ul>
+         </li>
+         
+      </ul>
+   </li>
+   <li><a href='./publications.html'><span>Awards</span></a>
+   		<ul>
+         <li class='has-sub'><a href='./publications.html'><span>Publications</span></a></li>
+         <li class='has-sub'><a href='./publications.html'><span>Conferences</span></a></li>
+         <li class='has-sub'><a href='./achievements.html'><span>Competitions</span></a></li>
+      </ul>
+   </li>
+   <li><a href='./index.html#team'><span>Team</span></a></li>
+   <li><a href='./index.html#gallery'><span>Gallery</span></a></li>
+   <li><a href='http://auv-iitb.org/wp'><span>Blog</span></a></li>
+   <li><a href='./index.html#sponsors'><span>Sponsors</span></a></li>
+   <li class='last'><a href='./index.html#contact'><span>Contact</span></a></li>
+</ul>
+</div>	
+
+	<!-- ABOUT SECTION -->
+	<div id="about" class="panel">
+		<div class="container">
+			
+			<header class="panel-heading">
+				<h2>Publications and Conference Presentations</h2>
+				<h4></h4>
+			</header><!-- end heading -->
+		
+						
+						<!-- <h5>A </h5> -->
+						<h3 style=" color:#3c639d;">American Society of Mechanical Research (ASME) ASME 2014, International Undergraduate Research and Design Expo 2014, Montreal</h3>
+						<h4>&nbsp &nbsp &nbsp &nbsp Design Evaluation Of Pressure Chamber For Underwater Vehicles</h4>
+						<h4>&nbsp &nbsp &nbsp &nbsp Design and Development of twisted fin torpedo and its actuation</h4>
+						<h4>&nbsp &nbsp &nbsp &nbsp Impact of thruster positioning and profiling on controls of an AUV</h4>
+						<h4>&nbsp &nbsp &nbsp &nbsp Development of unique robotic manipulator and its dynamic and kinetic analysis</h4>
+
+
+   
+ 
+
+						<h3 style=" color:#3c639d;" >ASME 2013, International Mechanical Engineering Congress & Exposition, San Diego</h3>
+						<h4>&nbsp &nbsp &nbsp &nbsp Design, Analysis and Development of a Frame for Autonomous Underwater Vehicles ASME 2012,</h4>
+
+						<h3 style=" color:#3c639d;">International Undergraduate Research and Design Expo 2012, Houston </h3>
+						<h4>&nbsp &nbsp &nbsp &nbsp System Design and Implementation of Autonomous Underwater Vehicle </h4>
+					
+						<h3 style=" color:#3c639d;">NIOT, IEEE International Underwater Technology Symposium 2013 Workshop </h3>
+						<h4>&nbsp &nbsp &nbsp &nbsp Modeling and Experimental Verification of Dynamics of an AUV </br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  (Ranked 2nd at Research Expo for “Design and Development of Autonomous Underwater Vehicle, Matsya 2.0”) </h4>
+					
+			
+	</div><!-- end about -->
+
+	
+</body>
+</html>
+

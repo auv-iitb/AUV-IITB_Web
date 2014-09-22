@@ -4,11 +4,11 @@
   position: absolute;
   position: fixed;
   top: 40px;
-  left: 50%;
+  left: 40%;
   padding: 0;
   margin: 0;
   border: 0;
-  width: 640px;
+  width: 800px;
 
 }
 #cssmenu ul,
